@@ -37,6 +37,7 @@ contacts.forEach((contact) => {
     ageArr.push(contact);
   }
 });
+console.log(ageArr);
 
 //4. the first ten contacts when alphabetically ordered by name
 
@@ -112,4 +113,5 @@ function sortContacts(x, y) {
 }
 sortedMedianArr = contacts.sort(sortContacts);
 medianAge = sortedMedianArr[sortedMedianArr.length / 2].age;
+
 console.log(medianAge);
